@@ -4,6 +4,12 @@ def join_nested_strings(src)
    while i < src.length do 
      j = 0 
      while j < src[i].length do
+       if src[i][j] == ""
+         string += src[i][j]
+       end
        j += 1
      end
+     i += 1
+   end
+   return string
 end
