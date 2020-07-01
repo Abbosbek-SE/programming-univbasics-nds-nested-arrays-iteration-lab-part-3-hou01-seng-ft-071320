@@ -4,6 +4,6 @@ def join_nested_strings(src)
    while i < src.length do 
      j = 0 
      while j < src[i].length do
-       j += 
+       j += 1 
      end
 end
